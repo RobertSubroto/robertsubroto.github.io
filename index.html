@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Header met navigatie -->
+  <header class="header">
+    <div class="container">
+		<div class="header-left">	
+      	  <h1 class="logo">Robert Christian Subroto</h1>
+	  		<div class="header-icons">
+ 		 <a href="https://www.linkedin.com/in/robert-christian-subroto-phd-125b01254/" target="_blank">
+    		<i class="fab fa-linkedin"></i>
+ 		 </a>
+	  <!-- GitHub -->
+  		 		<a href="https://github.com/RobertSubroto" target="_blank">
+    				<i class="fab fa-github"></i>
+  		 		</a>
+	  		</div>
+	  </div>
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#research">Research</a>
+		    <a href="#publications">Publications</a>
+		    <a href="#talks">Talks</a>
+		    <a href="#teaching">Teaching</a>
+		    <a href="#thesis">Thesis</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Intro sectie -->
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Welcome to my personal website!</h2>
+	  <img src="profiel.jpg"
+     	alt="Profiel foto"
+     	class="profile-photo">
+      <p>I am Robert Christian Subroto, but most know me simply as Bobby. 
+		I completed my PhD at the Radboud University in Nijmegen, supervised by  
+		<a href="https://cs.ru.nl/~joan/" class="external-link" target="_blank" rel="noopener">
+			prof. dr. Joan Daemen 
+				<i class="fas fa-arrow-up-right-from-square"></i>
+		</a>.
+	  </p>
+    </div>
+  </section>
+
+  <!-- Research sectie -->
+  <section id="research" class="about container">
+    <h2>Research</h2>
+    <p>
+		My research interests lie primarily in commutative algebra and representation theory, with applications in cryptography.
+		During my PhD, I studied the algebraic structure of group algebras of finite abelian groups over arbitrary base fields, with an emphasis on finite fields.
+		This can be considered as a generalization of the Discrete Fourier Transform (DFT), as the DFT can be viewed as the decomposition of group algebras where the group is cyclic and the 
+		field is the field of complex numbers.
+	</p>
+	<p>
+		The results led to direct applications to problems within symmetric cryptography, offering deeper insight in the algebraic structure of cryptographic functions 
+		constructed from circulant shifts.
+		Moreover, the results have promising applications in algebraic coding theory, which heavily rely on these group algebras. 
+	</p>
+  </section>
+
+
+  <!-- Publication sectie -->
+  <section id="publications" class="about container">
+    <h2>Publications</h2>
+	<ul>
+  <li>
+    <strong>Subroto, R. C. (2024)</strong>, <em>An algebraic approach to circulant column parity mixers</em>, 
+    Designs, Codes and Cryptography, 92(12), 4057–4083. 
+    <a href="https://doi.org/10.1007/s10623-024-01476-w" target="_blank">https://doi.org/10.1007/s10623-024-01476-w</a>
+  </li>
+  <li>
+    <strong>Subroto, R. C. (2023)</strong>, <em>An algebraic approach to symmetric linear layers in cryptographic primitives</em>, 
+    Cryptography and Communications, 15(6), 1053–1067. 
+    <a href="https://doi.org/10.1007/s12095-023-00630-w" target="_blank">https://doi.org/10.1007/s12095-023-00630-w</a>
+  </li>
+</ul>
+
+	<h2>Preprints</h2>
+<ul>
+  <li>
+    <strong>Subroto, R. C. (2024)</strong>, <em>The Krull-Remak-Schmidt decomposition of commutative group algebras</em>, 
+    arXiv:2408.14665, To be submitted. 
+    <a href="https://www.arxiv.org/abs/2408.14665" target="_blank">https://www.arxiv.org/abs/2408.14665</a>
+  </li>
+  <li>
+    <strong>Subroto, R. C. (2024)</strong>, <em>Wedderburn decomposition of commutative semisimple group algebras using the Combinatorial Nullstellensatz</em>, 
+    arXiv:2406.11436, Under submission at <em>Journal of Finite Fields and their Applications</em>. 
+    <a href="https://arxiv.org/abs/2406.11436" target="_blank">https://arxiv.org/abs/2406.11436</a>
+  </li>
+</ul>
+  </section>
+
+
+  <!-- Talks sectie -->
+  <section id="talks" class="about container">
+    <h2>Conferences & Talks</h2>
+<ul>
+  <li>
+    <strong>End-of-ESCADA Workshop</strong>, August 28, 2024, Nijmegen, the Netherlands<br>
+    Commutative algebra and symmetric cryptography
+  </li>
+  <li>
+    <strong>SIAM Conference on Applied Algebraic Geometry (AG23)</strong>, July 13, 2023 , Eindhoven, the Netherlands<br>
+    Column Parity Mixers & Module Theory
+  </li>
+  <li>
+    <strong>International Conference on Finite Fields and Their Applications (Fq15)</strong>, June 19, 2023, Paris, France<br>
+    Decomposition of finite commutative semisimple group algebras over finite fields
+  </li>
+  <li>
+    <strong>Crypto Working Group Workshop</strong>, June 2, 2023, Utrecht, the Netherlands<br>
+    Decomposition of finite commutative semisimple group algebras, 
+  </li>
+  <li>
+    <strong>International Workshop on Boolean Functions and their Applications (BFA)</strong>, September 16, 2022, Balestrand, Norway<br>
+    An Algebraic Approach to Symmetric Linear Layers in Cryptographic Primitives
+  </li>
+</ul>
+  </section>
+
+
+  <!-- Teaching sectie -->
+  <section id="teaching" class="about container">
+    <h2>Teaching</h2>
+    <p>
+		During the Spring 2021, and Fall 2021/2022, I was the teaching assistant of the course <i>Introduction to Cryptography</i>, 
+		for second year Computer Science students at the Radboud University in Nijmegen, the Netherlands.
+  	</p>
+  </section>
+
+
+  <!-- Thesis sectie -->
+  <section id="thesis" class="about container">
+    <h2>Thesis</h2>
+    <p>
+		On Friday November 21 2025, I defended my PhD thesis at the Radboud University entitled: 
+		<a href="https://repository.ubn.ru.nl/bitstream/handle/2066/325673/325673.pdf?sequence=1&isAllowed=y" class="external-link" target="_blank" rel="noopener">
+			<i>Commutative algebra and symmetric cryptography</i>
+				<i class="fas fa-arrow-up-right-from-square"></i>
+		</a>.
+  	</p>
+	<div class="photo-container">
+		<a href="https://repository.ubn.ru.nl/bitstream/handle/2066/325673/325673.pdf?sequence=1&isAllowed=y" target="_blank" class="clickable-image">
+			<img src="thesis_front_page.jpg" alt="Profiel foto">
+		</a>
+	</div>
+	<h3>Synopsis</h3>
+	<p>
+		“In this thesis, I present a deeper relationship between symmetric cryptography and commutative algebra, which at first glace seems to be unrelated concepts. 
+		More specifically between the permutation of bits and modules over group algebras. 
+		This relationship provides a deeper mathematical understanding of linear functions which are constructed using these bit permutations. 
+		These functions are a popular choice for designing symmetric cryptographic schemes. 
+		This new connection helps us understand certain behaviour of these linear functions, and can be used to construct new functions which ommit certain cryptographic weaknesses.” 
+	</p>
+  </section>
+
+
+  <!-- Contact sectie -->
+  <section id="contact" class="contact container">
+    <h2>Contact</h2>
+    <p>Feel free to contact me by mail at <i>rc.subroto [at] J3LL0 [dot] com</i> where <i>J3LL0</i> should be replaced by <i>gmail</ii>.</p>
+  </section>
+
+  <footer class="footer">
+    <p>© 2026 Robert Christian Subroto</p>
+  </footer>
+
+</body>
+</html>
