@@ -13,6 +13,7 @@
   <!-- Header met navigatie -->
   <header class="header">
     <div class="container">
+
 		<div class="header-left">	
       	  <h1 class="logo">Robert Christian Subroto</h1>
 	  		<div class="header-icons">
@@ -25,6 +26,14 @@
   		 		</a>
 	  		</div>
 	  </div>
+
+      <!-- 🔽 HAMBURGER -->
+    <button class="menu-toggle" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
       <nav class="nav">
         <a href="#home">Home</a>
         <a href="#research">Research</a>
@@ -33,6 +42,7 @@
 		    <a href="#teaching">Teaching</a>
 		    <a href="#thesis">Thesis</a>
         <a href="#contact">Contact</a>
+        <a href="CV_website/CV_website.pdf" target="_blank" rel="noopener">CV <i class="fas fa-arrow-up-right-from-square"></i></a>
       </nav>
     </div>
   </header>
@@ -108,24 +118,45 @@
     <h2>Conferences & Talks</h2>
 <ul>
   <li>
-    <strong>End-of-ESCADA Workshop</strong>, August 28, 2024, Nijmegen, the Netherlands<br>
-    Commutative algebra and symmetric cryptography
+    <a href="https://eoe.cs.ru.nl/" class="external-link" target="_blank" rel="noopener">
+      <strong>End-of-ESCADA Workshop</strong>
+      <i class="fas fa-arrow-up-right-from-square"></i>
+    </a>
+    , August 28, 2024, Nijmegen, the Netherlands<br>
+    <a href="presentations/EoE-presentation.pdf" target="_blank">Commutative algebra and symmetric cryptography</a>
   </li>
+
   <li>
-    <strong>SIAM Conference on Applied Algebraic Geometry (AG23)</strong>, July 13, 2023 , Eindhoven, the Netherlands<br>
-    Column Parity Mixers & Module Theory
+    <a href="https://siam-ag23.win.tue.nl/" class="external-link" target="_blank" rel="noopener">
+      <strong>SIAM Conference on Applied Algebraic Geometry (AG23)</strong>
+      <i class="fas fa-arrow-up-right-from-square"></i>
+    </a>
+    , July 13, 2023 , Eindhoven, the Netherlands<br>
+    <a href="presentations/AG23-presentation.pdf" target="_blank">Column Parity Mixers & Module Theory</a>  
   </li>
+
   <li>
-    <strong>International Conference on Finite Fields and Their Applications (Fq15)</strong>, June 19, 2023, Paris, France<br>
-    Decomposition of finite commutative semisimple group algebras over finite fields
+    <a href="https://org.uib.no/selmer/fq15/" class="external-link" target="_blank" rel="noopener">
+      <strong>International Conference on Finite Fields and Their Applications (Fq15)</strong>
+      <i class="fas fa-arrow-up-right-from-square"></i>
+    </a>    
+    , June 19, 2023, Paris, France<br>
+    <a href="presentations/Fq15-presentation.pdf" target="_blank">Decomposition of finite commutative semisimple group algebras over finite fields</a> 
   </li>
+
   <li>
     <strong>Crypto Working Group Workshop</strong>, June 2, 2023, Utrecht, the Netherlands<br>
-    Decomposition of finite commutative semisimple group algebras, 
+    <a href="presentations/CWorkshop-presentation.pdf" target="_blank">Decomposition of finite commutative semisimple group algebras, and some applications in
+cryptography</a> 
   </li>
+
   <li>
-    <strong>International Workshop on Boolean Functions and their Applications (BFA)</strong>, September 16, 2022, Balestrand, Norway<br>
-    An Algebraic Approach to Symmetric Linear Layers in Cryptographic Primitives
+    <a href="https://boolean.w.uib.no/bfa-2022/" class="external-link" target="_blank" rel="noopener">
+      <strong>International Workshop on Boolean Functions and their Applications (BFA)</strong>
+      <i class="fas fa-arrow-up-right-from-square"></i>
+    </a>
+    , September 16, 2022, Balestrand, Norway<br>
+    <a href="presentations/BFA2022-presentation.pdf" target="_blank">An Algebraic Approach to Symmetric Linear Layers in Cryptographic Primitives</a> 
   </li>
 </ul>
   </section>
@@ -135,7 +166,12 @@
   <section id="teaching" class="about container">
     <h2>Teaching</h2>
     <p>
-		During the Spring 2021, and Fall 2021/2022, I was the teaching assistant of the course <i>Introduction to Cryptography</i>, 
+		During the Spring 2021, and Fall 2021/2022, I was the teaching assistant of the course 
+     <a href="https://ru.osiris-student.nl/onderwijscatalogus/extern/cursus?cursuscode=NWI-IBC023&collegejaar=2021" target="_blank" rel="noopener">
+      <i>Introduction to Cryptography</i>
+      <i class="fas fa-arrow-up-right-from-square"></i>
+    </a>
+    , 
 		for second year Computer Science students at the Radboud University in Nijmegen, the Netherlands.
   	</p>
   </section>
@@ -176,6 +212,16 @@
   <footer class="footer">
     <p>© 2026 Robert Christian Subroto</p>
   </footer>
+
+
+  <script>
+  const toggle = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('.nav');
+
+  toggle.addEventListener('click', () => {
+    nav.classList.toggle('open');
+  });
+</script>
 
 </body>
 </html>

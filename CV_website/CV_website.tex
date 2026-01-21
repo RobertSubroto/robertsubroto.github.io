@@ -1,0 +1,366 @@
+%-------------------------
+% Resume in LateX
+% Author : Sourabh Bajaj
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{} % Clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate PDF is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{: #2 \vspace{-2pt}}
+  }
+}
+
+
+
+\newcommand{\resumePublicationItem}[7]{
+  \item\small{
+    \textbf{#1}{ (#2)}{, \emph{#3}}{, \textbf{#4}}{, #5}{, #6}{\\ #7 \vspace{-5pt}} 
+  }
+}
+
+
+\newcommand{\resumePreprintItem}[7]{%
+  \item\small{%
+    \textbf{#1} (#2), \emph{#3}, #4, #5, #6. \\ #7\vspace{-5pt}%
+  }%
+}
+
+
+
+\newcommand{\resumeEducationItem}[4]{ 
+  \item[\textbullet]
+  \parbox[t]{0.97\textwidth}{%
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1}, \textit{\small #2}, {\small #3} & \textit{\small #4}
+    \end{tabular*}
+  }
+  \vspace{-5pt}
+}
+
+
+% Just in case someone needs a heading that does not need to be in a list
+\newcommand{\resumeHeading}[4]{
+	\vspace{-1pt}
+    \item
+    \begin{tabular*}{0.99\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textit{\small #2}  \\
+      \textit{\small#3} & #4 \\
+    \end{tabular*}
+    \vspace{-5pt}
+}
+
+
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{{\Large Robert Christian Subroto, PhD}} & Email: \href{mailto:rc.subroto@gmail.com}{rc.subroto@gmail.com}\\
+  Arnhem, the Netherlands  				         &   \href{https://orcid.org/0000-0001-5534-2655}{ORCID},
+  												\href{https://github.com/RobertSubroto}{GitHub}, 
+  												\href{https://www.linkedin.com/in/robert-christian-subroto-125b01254/}{LinkedIn} 
+\end{tabular*}
+
+
+
+%--------PROFILE------------
+\section{Profile}
+I recently completed a PhD at Radboud University in cryptography.
+My research focuses on the algebraic structure of group algebras over finite abelian groups, with applications to symmetric cryptography.
+I developed a new algebraic framework for studying circulant shifts, motivated by open cryptographic problems.
+My research interests include algebra and representation theory, and its applications to various disciplines including cryptography, coding theory and quantum information theory.
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+  
+	\resumeEducationItem
+      {PhD Cryptography}{Radboud University}
+      {Nijmegen, the Netherlands}
+      {Oct 2020 -- Nov 2025}
+      \resumeItemListStart
+      	\item\small{\textbf{\textit{Defended November 21, 2025}};}
+      	\resumeItem{Thesis}
+          {\emph{Commutative algebra and symmetric cryptography} (available \href{https://repository.ubn.ru.nl/bitstream/handle/2066/325673/325673.pdf?sequence=1&isAllowed=y}{\underline{here}});}
+        \resumeItem{Supervisor}
+          {Prof. Dr. Joan Daemen.}
+      \resumeItemListEnd    
+      
+    \resumeEducationItem
+      {MSc Mathematics}{University of Amsterdam}
+      {Amsterdam, the Netherlands}
+      {Sep 2016 -- Sep 2019}
+	  \resumeItemListStart
+        \resumeItem{Thesis}
+          {\emph{Bernstein's New Approach to Representation Theory} (available \href{https://scripties.uba.uva.nl/search?id=record_26660}{\underline{here}});}
+        \resumeItem{Supervisor}
+          {Prof. Dr. Arno Kret.}
+      \resumeItemListEnd
+	            
+    \resumeEducationItem
+      {BSc Mathematics}
+      {Utrecht University}
+      {Utrecht, the Netherlands}
+      {Sep 2013 -- Sep 2016}
+      \resumeItemListStart
+        \resumeItem{Thesis}
+          {\emph{The Mordell-Weil theory of elliptic curves over finite function fields};}
+        \resumeItem{Supervisor}
+          {Prof. Dr. Frits Beukers.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd  
+  
+  
+  
+%-----------EXPERIENCE-----------------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+  
+  	  \resumeEducationItem
+    {PhD Cryptography}
+    {Radboud University}
+    {Nijmegen, the Netherlands}
+    {Oct 2020 -- Nov 2025}
+    
+  \resumeEducationItem
+	{Quantitative Risk Consultant}
+    {RiskQuest}
+    {Amsterdam, the Netherlands}
+	{Dec 2019 -- July 2020}  
+      \resumeItemListStart
+        \resumeItem{Data modelling}
+          {Developing financial risk models using data for financial institutions using Python;}
+        \resumeItem{Projects}
+          {Contributed on model validation projects for ING and FMO, earning recognition for my clear and precise reporting of data analysis methodologies.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  
+    
+    
+
+%    \resumeSubheading
+%	 {Quantitative Risk Consultant}
+%	 {Dec 2019 -- July 2020}
+%     {RiskQuest}
+%     {Amsterdam, the Netherlands}
+
+
+%-----------PUBLICATIONS-----------------
+\section{Publications}
+  \resumeSubHeadingListStart
+
+    \resumePublicationItem
+    {Subroto, R. C.}      % #1: Author(s)
+    {2024}                 % #6: Year
+    {An algebraic approach to circulant column parity mixers}  % #2: Title
+    {Des. Codes Cryptogr.}  % #3: Journal
+    {92(12)}               % #4: Volume(issue)
+    {4057--4083}           % #5: Pages
+    {\url{https://doi.org/10.1007/s10623-024-01476-w}}  % #7: DOI/link
+   
+    \resumePublicationItem
+    {Subroto, R. C.}  % Author(s)
+    {2023}             % Year
+    {An algebraic approach to symmetric linear layers in cryptographic primitives}  % Title
+    {Cryptogr. Commun.}  % Journal
+    {15(6)}            % Volume(issue)
+    {1053--1067}       % Pages
+    {\url{https://doi.org/10.1007/s12095-023-00630-w}} 
+  
+  \resumeSubHeadingListEnd
+  
+  
+  
+  %-----------PREPRINTS-----------------
+\section{Preprints}
+  \resumeSubHeadingListStart
+  
+	\resumePreprintItem
+  {Subroto, R. C.}             % #1: Author(s)
+  {2024}                        % #2: Year
+  {The Krull-Remak-Schmidt decomposition of commutative group algebras} % #3: Title
+  {arXiv}                        % #4: Repository
+  {arXiv:2408.14665}             % #5: ID
+  {To be submitted}                     % #6: Pages
+  {\url{https://www.arxiv.org/abs/2408.14665}} % #7: URL
+
+\resumePreprintItem
+  {Subroto, R. C.}
+  {2024}
+  {Wedderburn decomposition of commutative semisimple group algebras using the Combinatorial Nullstellensatz}
+  {arXiv}
+  {arXiv:2406.11436}
+  {Under submission at \emph{Finite Fields and their Applications}}
+  {\url{https://arxiv.org/abs/2406.11436}}
+  
+  
+%    \resumePreprintItem{The Krull-Remak-Schmidt decomposition of commutative group algebras}
+%    	  {\href{https://www.arxiv.org/abs/2408.14665}{arXiv:2408.14665} (2024)}{14 pages}{Robert Christian Subroto}
+%    \resumePreprintItem{Wedderburn decomposition of commutative semisimple group algebras using the Combinatorial Nullstellensatz}
+%      {\href{https://arxiv.org/abs/2406.11436}{arXiv:2406.11436} (2024)}{20 pages}{Robert Christian Subroto}
+  \resumeSubHeadingListEnd
+
+
+%-----------TALKS&CONFERENCES-----------------
+\section{Conferences \& Talks}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {\href{https://eoe.cs.ru.nl/}{End-of-ESCADA Workshop}}
+      {Aug 28, 2024}
+      {Commutative algebra and symmetric cryptography}
+      {Nijmegen, the Netherlands}
+
+	\resumeSubheading
+	  {\href{https://siam-ag23.win.tue.nl/}{SIAM Conference on Applied Algebraic Geometry (AG23)}}
+	  {July 13, 2023}
+      {Column Parity Mixers \& Module Theory}
+      {Eindhoven, the Netherlands}
+
+   \resumeSubheading
+	 {\href{https://org.uib.no/selmer/fq15/}{International Conference on Finite Fields and Their Applications (Fq15)}}
+	 {June 19, 2023}
+     {Decomposition of finite commutative semisimple group algebras over finite fields}
+     {Paris, France}
+     
+   \resumeSubheading
+	 {Crypto Working Group Workshop}
+	 {June 2, 2023}
+     {Decomposition of finite commutative semisimple group algebras}
+     {Utrecht, the Netherlands}
+     
+   \resumeSubheading
+	 {\href{https://boolean.w.uib.no/bfa-2022/}{International Workshop on Boolean Functions and their Applications (BFA)}}
+	 {Sep 16, 2022}
+     {An Algebraic Approach to Symmetric Linear Layers in Cryptographic Primitives}
+     {Balestrand, Norway}
+  \resumeSubHeadingListEnd
+
+
+%-----------TEACHING-----------------
+\section{Teaching Experience}
+  \resumeSubHeadingListStart
+      \resumeEducationItem
+      {Teaching Assistant}{Course: Introduction to cryptography}{Radboud University}
+      {Sep 2022 - Feb 2023}
+    \resumeEducationItem
+      {Teaching Assistant}{Course: Introduction to cryptography}{Radboud University}
+      {Sep 2021 - Feb 2022}
+    \resumeEducationItem
+      {Teaching Assistant}{Course: Introduction to cryptography}{Radboud University}
+      {Feb 2021 - Jun 2021}
+  \resumeSubHeadingListEnd  
+
+
+%--------SKILLS------------
+\section{Skills}
+  \resumeSubHeadingListStart
+  	\resumeSubItem{Mathematics}
+      {Linear algebra, abstract algebra, commutative algebra, representation theory, algebraic geometry, calculus, probability theory \& statistics, (algebraic) topology, cryptography}
+    \resumeSubItem{Programming languages/frameworks}
+      {C, Python (Pandas, Scikit-learn, NumPy, Pytorch, Matplotlib), SQL}
+    \resumeSubItem{Operating systems}
+    	  {Windows, Linux/Unix}
+    \resumeSubItem{Machine learning}
+      {Neural Networks, MLP, linear models, PCA, $k$-nearest neighbors, TDA}
+    \resumeSubItem{Tools/platforms}
+      {Git, LaTeX}
+    \resumeSubItem{Languages}
+      {Dutch (Native), English (Full Professional Proficiency), Indonesian, German, French (Rudimentary)}
+  \resumeSubHeadingListEnd
+
+
+
+
+
+%%-----------PROJECTS-----------------
+%\section{Projects}
+%  \resumeSubHeadingListStart
+%    \resumeSubItem{Decomposition of group algebras over finite abelian groups}
+%      {Categorizing the indecomposable components of such group algebras, using group theory, Galois theory, commutative algebra, representation theory, commutative algebra and 	   algebraic geometry. This was my main PhD research project.}
+%    \resumeSubItem{Implementation of a MLP neural networks class using Python}
+%      {Implemented a Python class for MLP neural networks including the backpropagation and gradient descent algorithms, using only NumPy. 
+%      The code can be found on my \href{https://github.com/RobertSubroto}{GitHub}.}
+%  \resumeSubHeadingListEnd
+
+
+  
+  
+
+
+%-------------------------------------------
+\end{document}
