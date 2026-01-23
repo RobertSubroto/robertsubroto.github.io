@@ -214,14 +214,66 @@ cryptography</a>
   </footer>
 
 
-  <script>
-  const toggle = document.querySelector('.menu-toggle');
+<script>
+  const header = document.querySelector('.header');
   const nav = document.querySelector('.nav');
+  const toggle = document.querySelector('.menu-toggle');
 
-  toggle.addEventListener('click', () => {
+  let lastScrollY = window.scrollY;
+  let isNavigating = false;
+
+  /* =====================
+     HAMBURGER MENU
+  ===================== */
+  toggle.addEventListener('click', (e) => {
+    e.preventDefault();
     nav.classList.toggle('open');
+    header.classList.remove('hide');
+    lastScrollY = window.scrollY;
+  });
+
+  /* =====================
+     SLUIT BIJ KLIK BUITEN HEADER
+  ===================== */
+  document.addEventListener('click', (e) => {
+    if (!header.contains(e.target)) {
+      nav.classList.remove('open');
+    }
+  });
+
+  /* =====================
+     NAVIGATIE KLIK
+  ===================== */
+  nav.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    isNavigating = true;
+    header.classList.remove('hide'); // header zichtbaar houden
+
+    setTimeout(() => {
+      lastScrollY = window.scrollY;
+      isNavigating = false;
+    }, 500);
+  });
+});
+
+  /* =====================
+     SCROLL LOGICA HEADER
+  ===================== */
+  window.addEventListener('scroll', () => {
+    if (isNavigating || nav.classList.contains('open')) return;
+
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > lastScrollY && currentScrollY > 100) {
+      header.classList.add('hide');
+    } else if (lastScrollY - currentScrollY > 10) {
+      header.classList.remove('hide');
+    }
+
+    lastScrollY = currentScrollY;
   });
 </script>
+
 
 </body>
 </html>

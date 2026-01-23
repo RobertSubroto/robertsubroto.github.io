@@ -17,7 +17,6 @@ body {
 
 /* Header */
 .header {
-  /*height: 90px; /* alleen om te meten, niet verplicht */
   position: fixed;
   top: 0;
   left: 0;
@@ -25,6 +24,12 @@ body {
   background: #222;
   color: #fff;
   z-index: 1000;
+
+  transition: transform 0.3s ease; /* 🔑 smooth animatie */
+}
+
+.header.hide {
+  transform: translateY(-100%);
 }
 
 section {
@@ -107,7 +112,8 @@ section {
 }
 
 /* 📱 MOBILE */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {  */
+  @media (max-width: 1100px) { 
 
   .menu-toggle {
     display: flex;        /* hamburger zichtbaar */
