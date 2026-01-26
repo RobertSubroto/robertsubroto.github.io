@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.25)  26 JAN 2026 01:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.25)  26 JAN 2026 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,16 +417,16 @@ LaTeX Font Info:    Trying to load font information for U+lasy on input line 13
 (C:\Users\Bobby Subroto\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
 nput line 132.
 
 (C:\Users\Bobby Subroto\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\uf
-ontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
+ontawesomefree2.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
 nput line 133.
 
 (C:\Users\Bobby Subroto\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\uf
-ontawesomefree2.fd)
+ontawesomefree1.fd)
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on
  input line 134.
 
@@ -446,11 +446,11 @@ t available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
 n input line 135.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 160.
+(Font)              <7> on input line 161.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 160.
+(Font)              <5> on input line 161.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
-nput line 160.
+nput line 161.
 
 (C:\Users\Bobby Subroto\AppData\Local\Programs\MiKTeX\tex/latex/fontawesome5\uf
 ontawesomefree0.fd)
@@ -463,8 +463,8 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 {C:/Users/Bobby Subroto/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Us
 ers/Bobby Subroto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa
-5free1.enc}{C:/Users/Bobby Subroto/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
-s/fontawesome5/fa5free2.enc}{C:/Users/Bobby Subroto/AppData/Local/Programs/MiKT
+5free2.enc}{C:/Users/Bobby Subroto/AppData/Local/Programs/MiKTeX/fonts/enc/dvip
+s/fontawesome5/fa5free1.enc}{C:/Users/Bobby Subroto/AppData/Local/Programs/MiKT
 eX/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{C:/Users/Bobby Subroto/AppData/
 Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Users/Bob
 by Subroto/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.
@@ -484,12 +484,12 @@ Package rerunfilecheck Info: File `CV_website.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  13830 strings out of 474369
- 242378 string characters out of 5736702
+ 242379 string characters out of 5736702
  1955754 words of memory out of 5000000
  36055 multiletter control sequences out of 15000+600000
  566500 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,306b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,537b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\Bobby Subroto\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
 600\tcrm1000.pk> <C:\Users\Bobby Subroto\AppData\Local\MiKTeX\fonts/pk/ljfour/j
 knappen/ec/dpi600\tcrm1095.pk><C:/Users/Bobby Subroto/AppData/Local/Programs/Mi
@@ -506,7 +506,7 @@ MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Bobby Subroto/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Bobb
 y Subroto/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.p
 fb>
-Output written on CV_website.pdf (2 pages, 172998 bytes).
+Output written on CV_website.pdf (2 pages, 173525 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  11 named destinations out of 1000 (max. 500000)
