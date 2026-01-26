@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://robertsubroto.github.io/</loc>
+  <lastmod>2026-01-26T20:50:18+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://robertsubroto.github.io/CV_website/CV_website.pdf</loc>
+  <lastmod>2026-01-26T20:50:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://robertsubroto.github.io/presentations/EoE-presentation.pdf</loc>
+  <lastmod>2026-01-26T20:50:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://robertsubroto.github.io/presentations/AG23-presentation.pdf</loc>
+  <lastmod>2026-01-26T20:50:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://robertsubroto.github.io/presentations/Fq15-presentation.pdf</loc>
+  <lastmod>2026-01-26T20:50:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://robertsubroto.github.io/presentations/CWorkshop-presentation.pdf</loc>
+  <lastmod>2026-01-26T20:50:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://robertsubroto.github.io/presentations/BFA2022-presentation.pdf</loc>
+  <lastmod>2026-01-26T20:50:18+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
+</urlset>
